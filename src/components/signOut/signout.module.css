@@ -1,0 +1,8 @@
+.signout{
+    background:rgb(234, 232, 217);
+    color: #016A70;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 9px;
+    cursor: pointer;
+}

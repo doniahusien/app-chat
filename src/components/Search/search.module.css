@@ -1,0 +1,41 @@
+.chats {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 5px;
+    color: rgba(32, 110, 116, 0.942);
+    background-color: rgb(234, 232, 217);
+}
+
+.chat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.img {
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.chat:hover{
+    background-color: rgb(234, 232, 217);
+}
+.chat p{
+    font-size: smaller;
+    color: rgb(162, 162, 162);
+}
+.search input{
+    width:91%;
+    border: none;
+    background:rgb(234, 232, 217);
+    color:  rgb(27, 103, 106);
+}
+
+.search input::placeholder{
+    color: rgb(27, 103, 106);
+}

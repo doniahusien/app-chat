@@ -1,0 +1,36 @@
+.input{
+    background:rgb(255, 255, 255);
+   padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    height: 30px;
+ 
+}
+.send{
+    font-size: larger;
+    color: rgb(52, 52, 52);
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.send label{
+    display: flex;
+    align-items: center;
+}
+.input input{
+   color: black;
+   border: none;
+   width:100%
+}
+.input input::placeholder{
+    color: black;
+}
+.input button{
+    padding:5px 15px;
+    background-color:#016A70;
+    border:0;
+    outline: none;
+    color: aliceblue;
+}

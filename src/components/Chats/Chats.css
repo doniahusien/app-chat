@@ -1,0 +1,35 @@
+.allChats {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 25px;
+    height:100%;
+    background-color: #016A70;
+}
+
+.userChat {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.imgs {
+    width: 45px;
+    height:45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userChat:hover{
+    background-color: #016A70;
+}
+.userChat p{
+    font-size: smaller;
+    color: rgb(226, 226, 226);
+}
+.search input{
+    width:100%;
+}

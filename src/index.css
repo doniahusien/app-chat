@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#F7EFE5;
+}
+label{
+    color: #F7EFE5;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}

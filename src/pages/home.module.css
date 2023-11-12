@@ -1,0 +1,14 @@
+.home{
+    background-color: rgb(231, 230, 230);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    border: 2px solid white;
+    width: 65%;
+    height: 80%;
+    overflow: hidden;
+}
